@@ -1,0 +1,216 @@
+{
+  "basics": {
+    "name": "Mike Gallagher",
+    "label": "AI Solution Architect",
+    "email": "mike.gallagher@live.ie",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "GallTech",
+        "url": "https://github.com/GallTech"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mikegallagherireland",
+        "url": "https://linkedin.com/in/mikegallagherireland"
+      }
+    ]
+  },
+  "summary": "AI Solution Architect with 26 years in enterprise environments, blending infrastructure engineering with human-centered software design. Currently focused on intelligent document systems on M365, RAG pipelines, and automated AI platforms.",
+  "skills": [
+    {
+      "category": "AI & LLMs",
+      "items": [
+        "RAG pipelines",
+        "LangChain",
+        "LLM orchestration",
+        "OpenAI/Azure/local APIs",
+        "embeddings",
+        "vector search"
+      ]
+    },
+    {
+      "category": "Automation & Coding",
+      "items": [
+        "Python",
+        "PyTest",
+        "Go",
+        "Bash",
+        "PowerShell",
+        "FastAPI",
+        "React",
+        "Git",
+        "CI/CD",
+        "IaC"
+      ]
+    },
+    {
+      "category": "Cloud & Containers",
+      "items": [
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Ingress",
+        "Terraform",
+        "Ansible"
+      ]
+    },
+    {
+      "category": "Observability & Model Ops",
+      "items": [
+        "Prometheus",
+        "MLflow"
+      ]
+    },
+    {
+      "category": "Microsoft Ecosystem",
+      "items": [
+        "SharePoint (2007–SE)",
+        "Microsoft 365",
+        "PowerShell",
+        "SQL Server"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CKA",
+      "date": "Jan 2027"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "B1"
+    },
+    {
+      "language": "French",
+      "fluency": "A2"
+    },
+    {
+      "language": "German",
+      "fluency": "A1"
+    },
+    {
+      "language": "Latin",
+      "fluency": "Beginner"
+    }
+  ],
+  "work": [
+    {
+      "title": "SharePoint Consultant",
+      "company": "EUIPO (Contract)",
+      "location": "European Union Intellectual Property Office",
+      "startDate": "Sept 2025",
+      "endDate": "Present",
+      "highlights": [
+        "Designing and deploying AI-augmented SharePoint Subscription Edition platforms using local LLMs and RAG pipelines",
+        "Integrating intelligent document workflows with access control–aware retrieval for secure multilingual search",
+        "Working within EU governance and compliance frameworks to modernize legacy Microsoft ecosystems"
+      ]
+    },
+    {
+      "title": "SharePoint & M365 Consultant",
+      "company": "Independent",
+      "location": "Freelance / Remote",
+      "startDate": "June 2025",
+      "endDate": "Sept 2025",
+      "highlights": [
+        "Built a fully automated home lab for SharePoint SE + AI, deployed via Proxmox, Terraform, and Ansible",
+        "Developed production-grade PowerShell tooling for SharePoint metadata extraction with Active Directory integration",
+        "Delivered AI-ready document pipelines incorporating FastAPI, Qdrant, and local embedding models",
+        "Advised SMEs on integrating OpenAI and Azure AI into document management and compliance workflows"
+      ]
+    },
+    {
+      "title": "Senior Premier Field Engineer — SharePoint",
+      "company": "Microsoft UK",
+      "location": "N/A",
+      "startDate": "2002",
+      "endDate": "2015",
+      "highlights": [
+        "Supported large enterprise clients across Europe in SharePoint migration, performance tuning, and disaster recovery",
+        "Led critical incident response and troubleshooting for high-availability SharePoint farms",
+        "Built and maintained diagnostic tooling adopted by SharePoint engineering and support teams globally"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UNED (Universidad Nacional de Educación a Distancia), Spain",
+      "studyType": "BSc Mathematics (Grado en Matemáticas)",
+      "startDate": "October 2026",
+      "endDate": "Present"
+    },
+    {
+      "institution": "University College Dublin, Ireland",
+      "studyType": "BA (Hons) English and Philosophy",
+      "startDate": "1998",
+      "endDate": "1998"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Augmented SharePoint Platform",
+      "description": [
+        "Built an enterprise-scale SharePoint SE + AI platform in a fully automated Proxmox lab",
+        "Uses Terraform and cloud-init for declarative VM provisioning",
+        "Integrates Active Directory, local LLMs, and multilingual RAG pipelines",
+        "Designed for ACL-aware retrieval, real-time query routing, and compliance-focused deployments"
+      ]
+    },
+    {
+      "name": "RAG Platform Builder",
+      "description": [
+        "CLI-driven infrastructure generator for multilingual AI labs",
+        "Uses a custom DSL to define all VMs, services, and pipelines as code",
+        "Emits Terraform, Ansible, and Kubernetes manifests for reproducible, production-like setups",
+        "Includes a custom Terraform provider for Proxmox written in Go"
+      ]
+    },
+    {
+      "name": "Kubernetes-Orchestrated AI Stack",
+      "description": [
+        "Helm-managed K3s clusters running Ollama, FastAPI, LangChain, and embedding models",
+        "Modular Ansible roles configure OS, install Docker/K3s, and deploy AI microservices",
+        "Uses persistent volumes, Ingress routing, secrets management, and Prometheus monitoring"
+      ]
+    },
+    {
+      "name": "Proxmox VM Terminal Launcher (WezTerm Edition)",
+      "description": [
+        "Lightweight desktop utility for dynamic VM control in homelab environments",
+        "Connects to Proxmox API using token-based auth to list, start, and access VMs",
+        "Launches instant SSH sessions via WezTerm into running VMs"
+      ]
+    },
+    {
+      "name": "DMSAI-CreateExportPackage",
+      "description": [
+        "Enterprise-grade PowerShell tool for SharePoint metadata export",
+        "Validates schemas, integrates with Active Directory, and logs to JSON/CSV for audit and ingestion"
+      ]
+    },
+    {
+      "name": "Multilingual Science Article Generator",
+      "description": [
+        "Daily pipeline generating science articles in Spanish, French, German, and Italian",
+        "Gemini-based structured prompting and Dockerized ETL flow"
+      ]
+    },
+    {
+      "name": "Production-Like Sandbox Environment",
+      "description": [
+        "Dedicated AI and RAG services run in isolated K8s nodes with strict separation",
+        "CI/CD managed by GitLab CE with self-hosted runners",
+        "Enables multilingual document ingestion and ACL-sensitive responses"
+      ]
+    }
+  ],
+  "hobbies": [
+    "Tech",
+    "guitars",
+    "travel",
+    "Ancient languages (Latin & Ancient Greek)"
+  ]
+}
